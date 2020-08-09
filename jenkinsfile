@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "Stk17/Java"
+    registry = "stk17/java_repo"
     registryCredential = 'DockerStk'
     dockerImage = ''
   }
